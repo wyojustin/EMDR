@@ -70,8 +70,6 @@ void EMDR(){
   if (x >= MatrixWidth) {
     x = MatrixWidth - 3;
     dir = -1;
-    Serial.println(millis() - last_ms);
-    last_ms = millis();
   }
   if(x <= 0){
     x = 0;
